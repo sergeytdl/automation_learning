@@ -4,7 +4,7 @@ require 'capybara/rspec'
 require 'selenium-webdriver'
 require 'json'
 require 'base64'
-#require "chromedriver/helper"
+require "chromedriver/helper"
 require 'webdrivers'
 require 'rspec'
 # p Selenium::WebDriver::Chrome.driver_path
