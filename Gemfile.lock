@@ -1,0 +1,151 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    appium_capybara (1.5.1)
+      appium_lib (>= 9.13.0)
+      capybara (~> 3.0)
+    appium_lib (9.14.3)
+      appium_lib_core (~> 1.8.0)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (~> 1.1)
+    appium_lib_core (1.8.3)
+      faye-websocket (~> 0.10.0)
+      selenium-webdriver (~> 3.5)
+    archive-zip (0.11.0)
+      io-like (~> 0.3.0)
+    ast (2.4.0)
+    backports (3.11.3)
+    builder (3.2.3)
+    capybara (3.5.1)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      xpath (~> 3.1)
+    capybara-screenshot (1.0.21)
+      capybara (>= 1.0, < 4)
+      launchy
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (1.2.0)
+      archive-zip (~> 0.10)
+      nokogiri (~> 1.8)
+    crass (1.0.4)
+    cucumber (3.1.2)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.2.0)
+      cucumber-expressions (~> 6.0.1)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.1.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.2.0)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (>= 5.0.0)
+    cucumber-expressions (6.0.1)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    eventmachine (1.2.7-x64-mingw32)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    ffi (1.9.25-x64-mingw32)
+    gherkin (5.1.0)
+    hash (1.0.0)
+      hash-compositing
+      hash-hooked
+    hash-compositing (1.0.3)
+      hash-hooked
+    hash-hooked (1.2.1)
+      identifies_as
+    identifies_as (1.1.1)
+    io-like (0.3.0)
+    jaro_winkler (1.5.1)
+    json (2.1.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    loofah (2.2.2)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mini_mime (1.0.0)
+    mini_portile2 (2.3.0)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
+    nokogiri (1.8.4-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
+    parallel (1.12.1)
+    parallel_tests (2.22.0)
+      parallel
+    parser (2.5.1.2)
+      ast (~> 2.4.0)
+    peach (0.5.1)
+    powerpack (0.1.2)
+    public_suffix (3.0.2)
+    rack (2.0.5)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rainbow (3.0.0)
+    report_builder (1.7)
+      json (>= 1.8.1)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+    rubocop (0.58.2)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.5, != 2.5.1.1)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.10.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.14.0)
+      childprocess (~> 0.5)
+      rspec (>= 2.0.0)
+      rubyzip (~> 1.2)
+    tomlrb (1.2.7)
+    unicode-display_width (1.4.0)
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
+    xpath (3.1.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  appium_capybara
+  capybara
+  capybara-screenshot
+  chromedriver-helper
+  cucumber
+  hash
+  json
+  loofah
+  parallel_tests
+  peach
+  report_builder
+  rspec
+  rubocop
+  selenium-webdriver
+
+BUNDLED WITH
+   1.16.3
