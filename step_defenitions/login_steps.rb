@@ -2,7 +2,7 @@ Given(/^I am on login page$/) do
   @pages.page_first.load
   @pages.page_first.visible?
 end
-
+#bla
   
   # if find(:css, '#skip22162').visible?
   # find(:css, '#skip22162').click
