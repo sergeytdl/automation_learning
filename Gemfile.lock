@@ -135,7 +135,6 @@ DEPENDENCIES
   appium_capybara
   capybara
   capybara-screenshot
-  chromedriver-helper
   cucumber
   hash
   json

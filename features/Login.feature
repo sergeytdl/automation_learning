@@ -1,4 +1,4 @@
-Feature: Basic authentication
+Feature: Basic
 
      Scenario: User opens the webpage and can find items.
         Given I am on login page
