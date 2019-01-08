@@ -14,7 +14,7 @@ class Element
   
     def isVisible
       unless visible?
-        raise "element not visible"
+        raise "Element not visible"
       end
     end
   

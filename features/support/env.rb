@@ -24,6 +24,4 @@ Capybara.default_driver = :selenium
 
 Before do |scenario|
     @pages = Pages.new
-    # @tests = Tests.new( @pages)
-  
 end

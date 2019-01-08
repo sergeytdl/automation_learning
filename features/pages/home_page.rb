@@ -1,4 +1,4 @@
-class HomePage < BasePage              # parnem no base_page visas meatodes u ttl
+class HomePage < BasePage
     attr_accessor :main_logo
 
     def initialize
