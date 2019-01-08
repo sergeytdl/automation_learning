@@ -5,7 +5,6 @@ end
 
 When("I enter in the searche field {string}") do |item|
 @pages.page_first.enterItem(item)
-
 end
   
 When(/^I click to find the item$/) do
