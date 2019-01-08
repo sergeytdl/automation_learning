@@ -7,9 +7,9 @@ class HomePage < BasePage
     @find_details1 = Element.new(:css, '#productBlock5458958 > div > div > div.product-options.fields-description > div')
     @find_details2 = Element.new(:css, '#productBlock4706952 > div > div > div.product-options.fields-description > div:nth-child(1)')
     @find_details3 = Element.new(:css, '#productBlock4706946 > div > div > p > a')
-    @find_price1 = Element.new(:css, '#productBlock5458958 > div > div > div.product-price > span.price.notranslate')
-    @find_price2 = Element.new(:css, '#productBlock4706952 > div > div > div.product-price > span.price.notranslate')
-    @find_price3 = Element.new(:css, '#productBlock4706946 > div > div > div.product-price > span.price.notranslate')
+    @find_price1 = Element.new(:xpath, '//*[@id="productBlock5458958"]/div/div/div[2]/span[1][contains(text(), "€ 176,99")]')
+    @find_price2 = Element.new(:xpath, '//*[@id="productBlock4706952"]/div/div/div[2]/span[1][contains(text(), "€ 109,99")]')
+    @find_price3 = Element.new(:xpath, '//*[@id="productBlock4706946"]/div/div/div[2]/span[1][contains(text(), "€ 97,78")]')
 end
 
 
@@ -41,5 +41,7 @@ end
     @find_price1.isVisible
     @find_price2.isVisible
     @find_price3.isVisible
+
+
     end
 end
