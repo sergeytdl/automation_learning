@@ -9,7 +9,7 @@ require 'webdrivers'
 require 'rspec'
 # Selenium::WebDriver::Chrome.driver_path
 # Selenium::WebDriver::Chrome.driver_path='C:\Ruby24-x64\bin\chromedriver.exe'
-Capybara.app_host = "http://www.inbox.lv"
+Capybara.app_host = "https://220.lv/lv/"
 Capybara.save_path = 'report/'
 Capybara::Screenshot.autosave_on_failure = false
 Capybara::Screenshot.prune_strategy = :keep_last_run
