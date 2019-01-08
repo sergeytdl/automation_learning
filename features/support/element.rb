@@ -25,13 +25,4 @@ class Element
     def send_keys(value)
       find.send_keys value
     end
-
-
-
-    # def advert?
-    #   if @button_close_add.visible?
-    #   then @button_close_add.click
-    #   else
-    #     print "OK!"
-    # end
 end
