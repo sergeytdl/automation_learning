@@ -3,7 +3,7 @@ Given(/^I am on login page$/) do
   @pages.page_first.visible?
 end
 
-When("I enter in the searche field {string}") do |item|
+When("I enter in the search field {string}") do |item|
 @pages.page_first.enterItem(item)
 end
   
