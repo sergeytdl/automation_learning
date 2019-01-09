@@ -16,7 +16,7 @@ Capybara::Screenshot.prune_strategy = :keep_last_run
 
 # ========================= ENVIRONMENT SETUP ========================#
 Capybara.register_driver :selenium do |app|
-    capabilities = Selenium::WebDriver::Remote::Capabilities.chrome("chromeOptions" => { "binary" => chrome_binary, "args" => ['headless', 'disable-gpu', 'no-sandbox'] })
+    capabilities = Selenium::WebDriver::Remote::Capabilities.chrome("chromeOptions" => {"args" => ['headless', 'disable-gpu', 'no-sandbox'] })
     Capybara::Selenium::Driver.new(app, browser: :chrome)
 end
 Capybara.default_driver = :selenium
